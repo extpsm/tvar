@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EksempelDockument xmlns:tvar="http://brreg/vpoint">
+    <mRID>15eb4986-4f34-4e5b-976e-7e1732ccc24f</mRID>
+    <revisionNumber>1</revisionNumber>
+    <jakke><tvar:jakke></tvar:jakke></jakke>
+    <skjorte><tvar:skjorte></tvar:skjorte></skjorte>
+    <bukser><tvar:bukser></tvar:bukser></bukser>
+    <sko><tvar:sko></tvar:sko></sko>
+</EksempelDockument>

@@ -1,0 +1,777 @@
+<bvr:meldingshode  xmlns:tvar="http://brreg/vpoint" xmlns:bvr="http://schema.brreg.no/BVRENKInn">
+    <bvr:innrapporteringnyttenk_altinn_m>
+        <bvr:id>string</bvr:id>
+
+        <bvr:telefonnummerUtfyller>
+
+            <bvr:internasjonaltPrefiks>string</bvr:internasjonaltPrefiks>
+            <bvr:nasjonaltNummer>string</bvr:nasjonaltNummer>
+        </bvr:telefonnummerUtfyller>
+        <bvr:versjon>string</bvr:versjon>
+        <bvr:innsendertjenste>innsendertjeneste.manuellRegistrering</bvr:innsendertjenste>
+        <bvr:innsendingstidspunkt>string</bvr:innsendingstidspunkt>
+
+        <bvr:signatur>
+            <bvr:signaturMelding>
+
+                <bvr:signatarID>string</bvr:signatarID>
+            </bvr:signaturMelding>
+        </bvr:signatur>
+        <bvr:innsender>
+
+            <bvr:eksternFakturareferanse>string</bvr:eksternFakturareferanse>
+            <bvr:virksomhet>
+                <bvr:virksomhetsidentifikator>string</bvr:virksomhetsidentifikator>
+
+                <bvr:navn>string</bvr:navn>
+
+                <bvr:avdelingskontor>string</bvr:avdelingskontor>
+            </bvr:virksomhet>
+
+            <bvr:adresse>
+                <!--Zero or more repetitions:-->
+                <bvr:coNavn>string</bvr:coNavn>
+                <bvr:vegadresse>
+
+                    <bvr:vegadresseID>string</bvr:vegadresseID>
+                    <bvr:adressenavn>string</bvr:adressenavn>
+
+                    <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+                    <bvr:nummer>
+                        <bvr:nummer>stri</bvr:nummer>
+
+                        <bvr:bokstav>s</bvr:bokstav>
+                    </bvr:nummer>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+
+                    <bvr:adressetilleggsnavn>string</bvr:adressetilleggsnavn>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:vegadresse>
+                <bvr:stedsadresse>
+
+                    <bvr:stedsnavn>string</bvr:stedsnavn>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:stedsadresse>
+                <bvr:utenlandskAdresse>
+
+                    <bvr:adressenavn>string</bvr:adressenavn>
+
+                    <bvr:adressenummer>string</bvr:adressenummer>
+
+                    <bvr:bygning>string</bvr:bygning>
+
+                    <bvr:etasjenummer>string</bvr:etasjenummer>
+
+                    <bvr:boenhet>string</bvr:boenhet>
+
+                    <bvr:postboks>string</bvr:postboks>
+
+                    <bvr:postkode>string</bvr:postkode>
+
+                    <bvr:byEllerStedsnavn>string</bvr:byEllerStedsnavn>
+
+                    <bvr:region>string</bvr:region>
+
+                    <bvr:distriktEllerBydel>string</bvr:distriktEllerBydel>
+                    <bvr:land>
+                        <bvr:navn>string</bvr:navn>
+                        <bvr:landkode>string</bvr:landkode>
+                    </bvr:land>
+                    <!--0 to 3 repetitions:-->
+                    <bvr:friAdressetekst>string</bvr:friAdressetekst>
+
+                    <bvr:adresseidentifikator>string</bvr:adresseidentifikator>
+                </bvr:utenlandskAdresse>
+                <bvr:postboksadresse>
+                    <bvr:postboksnummer>string</bvr:postboksnummer>
+
+                    <bvr:postboksanleggsnavn>string</bvr:postboksanleggsnavn>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:postboksadresse>
+            </bvr:adresse>
+            <bvr:person>
+                <bvr:personidentifikator>stringstrin</bvr:personidentifikator>
+                <bvr:etternavn>string</bvr:etternavn>
+                <bvr:fulltNavn>string</bvr:fulltNavn>
+
+                <bvr:adresse>
+                    <!--Zero or more repetitions:-->
+                    <bvr:coNavn>string</bvr:coNavn>
+                    <bvr:vegadresse>
+
+                        <bvr:vegadresseID>string</bvr:vegadresseID>
+                        <bvr:adressenavn>string</bvr:adressenavn>
+
+                        <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+                        <bvr:nummer>
+                            <bvr:nummer>stri</bvr:nummer>
+
+                            <bvr:bokstav>s</bvr:bokstav>
+                        </bvr:nummer>
+                        <bvr:poststed>
+                            <bvr:postnummer>string</bvr:postnummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:poststed>
+
+                        <bvr:adressetilleggsnavn>string</bvr:adressetilleggsnavn>
+                        <bvr:kommune>
+                            <bvr:kommunenummer>string</bvr:kommunenummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:kommune>
+                    </bvr:vegadresse>
+                    <bvr:stedsadresse>
+
+                        <bvr:stedsnavn>string</bvr:stedsnavn>
+                        <bvr:poststed>
+                            <bvr:postnummer>string</bvr:postnummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:poststed>
+                        <bvr:kommune>
+                            <bvr:kommunenummer>string</bvr:kommunenummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:kommune>
+                    </bvr:stedsadresse>
+                    <bvr:utenlandskAdresse>
+
+                        <bvr:adressenavn>string</bvr:adressenavn>
+
+                        <bvr:adressenummer>string</bvr:adressenummer>
+
+                        <bvr:bygning>string</bvr:bygning>
+
+                        <bvr:etasjenummer>string</bvr:etasjenummer>
+
+                        <bvr:boenhet>string</bvr:boenhet>
+
+                        <bvr:postboks>string</bvr:postboks>
+
+                        <bvr:postkode>string</bvr:postkode>
+
+                        <bvr:byEllerStedsnavn>string</bvr:byEllerStedsnavn>
+
+                        <bvr:region>string</bvr:region>
+
+                        <bvr:distriktEllerBydel>string</bvr:distriktEllerBydel>
+                        <bvr:land>
+                            <bvr:navn>string</bvr:navn>
+                            <bvr:landkode>string</bvr:landkode>
+                        </bvr:land>
+                        <!--0 to 3 repetitions:-->
+                        <bvr:friAdressetekst>string</bvr:friAdressetekst>
+
+                        <bvr:adresseidentifikator>string</bvr:adresseidentifikator>
+                    </bvr:utenlandskAdresse>
+                    <bvr:postboksadresse>
+                        <bvr:postboksnummer>string</bvr:postboksnummer>
+
+                        <bvr:postboksanleggsnavn>string</bvr:postboksanleggsnavn>
+                        <bvr:poststed>
+                            <bvr:postnummer>string</bvr:postnummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:poststed>
+                        <bvr:kommune>
+                            <bvr:kommunenummer>string</bvr:kommunenummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:kommune>
+                    </bvr:postboksadresse>
+                </bvr:adresse>
+                <!--Zero or more repetitions:-->
+                <bvr:HF_navnesoekFeilkode>100</bvr:HF_navnesoekFeilkode>
+            </bvr:person>
+        </bvr:innsender>
+
+        <bvr:gebyransvarlig>
+
+            <bvr:eksternFakturareferanse>string</bvr:eksternFakturareferanse>
+            <bvr:virksomhet>
+                <bvr:virksomhetsidentifikator>string</bvr:virksomhetsidentifikator>
+
+                <bvr:navn>string</bvr:navn>
+
+                <bvr:avdelingskontor>string</bvr:avdelingskontor>
+            </bvr:virksomhet>
+
+            <bvr:adresse>
+                <!--Zero or more repetitions:-->
+                <bvr:coNavn>string</bvr:coNavn>
+                <bvr:vegadresse>
+
+                    <bvr:vegadresseID>string</bvr:vegadresseID>
+                    <bvr:adressenavn>string</bvr:adressenavn>
+
+                    <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+                    <bvr:nummer>
+                        <bvr:nummer>stri</bvr:nummer>
+
+                        <bvr:bokstav>s</bvr:bokstav>
+                    </bvr:nummer>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+
+                    <bvr:adressetilleggsnavn>string</bvr:adressetilleggsnavn>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:vegadresse>
+                <bvr:stedsadresse>
+
+                    <bvr:stedsnavn>string</bvr:stedsnavn>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:stedsadresse>
+                <bvr:utenlandskAdresse>
+
+                    <bvr:adressenavn>string</bvr:adressenavn>
+
+                    <bvr:adressenummer>string</bvr:adressenummer>
+
+                    <bvr:bygning>string</bvr:bygning>
+
+                    <bvr:etasjenummer>string</bvr:etasjenummer>
+
+                    <bvr:boenhet>string</bvr:boenhet>
+
+                    <bvr:postboks>string</bvr:postboks>
+
+                    <bvr:postkode>string</bvr:postkode>
+
+                    <bvr:byEllerStedsnavn>string</bvr:byEllerStedsnavn>
+
+                    <bvr:region>string</bvr:region>
+
+                    <bvr:distriktEllerBydel>string</bvr:distriktEllerBydel>
+                    <bvr:land>
+                        <bvr:navn>string</bvr:navn>
+                        <bvr:landkode>string</bvr:landkode>
+                    </bvr:land>
+                    <!--0 to 3 repetitions:-->
+                    <bvr:friAdressetekst>string</bvr:friAdressetekst>
+
+                    <bvr:adresseidentifikator>string</bvr:adresseidentifikator>
+                </bvr:utenlandskAdresse>
+                <bvr:postboksadresse>
+                    <bvr:postboksnummer>string</bvr:postboksnummer>
+
+                    <bvr:postboksanleggsnavn>string</bvr:postboksanleggsnavn>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:postboksadresse>
+            </bvr:adresse>
+            <bvr:person>
+                <bvr:personidentifikator>stringstrin</bvr:personidentifikator>
+                <bvr:etternavn>string</bvr:etternavn>
+                <bvr:fulltNavn>string</bvr:fulltNavn>
+
+                <bvr:adresse>
+                    <!--Zero or more repetitions:-->
+                    <bvr:coNavn>string</bvr:coNavn>
+                    <bvr:vegadresse>
+
+                        <bvr:vegadresseID>string</bvr:vegadresseID>
+                        <bvr:adressenavn>string</bvr:adressenavn>
+
+                        <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+                        <bvr:nummer>
+                            <bvr:nummer>stri</bvr:nummer>
+
+                            <bvr:bokstav>s</bvr:bokstav>
+                        </bvr:nummer>
+                        <bvr:poststed>
+                            <bvr:postnummer>string</bvr:postnummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:poststed>
+
+                        <bvr:adressetilleggsnavn>string</bvr:adressetilleggsnavn>
+                        <bvr:kommune>
+                            <bvr:kommunenummer>string</bvr:kommunenummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:kommune>
+                    </bvr:vegadresse>
+                    <bvr:stedsadresse>
+
+                        <bvr:stedsnavn>string</bvr:stedsnavn>
+                        <bvr:poststed>
+                            <bvr:postnummer>string</bvr:postnummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:poststed>
+                        <bvr:kommune>
+                            <bvr:kommunenummer>string</bvr:kommunenummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:kommune>
+                    </bvr:stedsadresse>
+                    <bvr:utenlandskAdresse>
+
+                        <bvr:adressenavn>string</bvr:adressenavn>
+
+                        <bvr:adressenummer>string</bvr:adressenummer>
+
+                        <bvr:bygning>string</bvr:bygning>
+
+                        <bvr:etasjenummer>string</bvr:etasjenummer>
+
+                        <bvr:boenhet>string</bvr:boenhet>
+
+                        <bvr:postboks>string</bvr:postboks>
+
+                        <bvr:postkode>string</bvr:postkode>
+
+                        <bvr:byEllerStedsnavn>string</bvr:byEllerStedsnavn>
+
+                        <bvr:region>string</bvr:region>
+
+                        <bvr:distriktEllerBydel>string</bvr:distriktEllerBydel>
+                        <bvr:land>
+                            <bvr:navn>string</bvr:navn>
+                            <bvr:landkode>string</bvr:landkode>
+                        </bvr:land>
+                        <!--0 to 3 repetitions:-->
+                        <bvr:friAdressetekst>string</bvr:friAdressetekst>
+
+                        <bvr:adresseidentifikator>string</bvr:adresseidentifikator>
+                    </bvr:utenlandskAdresse>
+                    <bvr:postboksadresse>
+                        <bvr:postboksnummer>string</bvr:postboksnummer>
+
+                        <bvr:postboksanleggsnavn>string</bvr:postboksanleggsnavn>
+                        <bvr:poststed>
+                            <bvr:postnummer>string</bvr:postnummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:poststed>
+                        <bvr:kommune>
+                            <bvr:kommunenummer>string</bvr:kommunenummer>
+                            <bvr:navn>string</bvr:navn>
+                        </bvr:kommune>
+                    </bvr:postboksadresse>
+                </bvr:adresse>
+                <!--Zero or more repetitions:-->
+                <bvr:HF_navnesoekFeilkode>100</bvr:HF_navnesoekFeilkode>
+            </bvr:person>
+        </bvr:gebyransvarlig>
+        <bvr:brtjeneste>
+            <bvr:tjenestetype>string</bvr:tjenestetype>
+            <bvr:tjenestevariant>tjenestevariant.nyregistrering</bvr:tjenestevariant>
+            <bvr:tjenestehandling>string</bvr:tjenestehandling>
+        </bvr:brtjeneste>
+        <bvr:virksomhetsinformasjon>
+            <bvr:organisasjonsform>organisasjonsform.enkeltpersonforetak</bvr:organisasjonsform>
+
+            <bvr:organisasjonsnummer>string</bvr:organisasjonsnummer>
+            <bvr:navn>string</bvr:navn>
+            <bvr:maalform>nno</bvr:maalform>
+            <tvar:forretningsadresse></tvar:forretningsadresse>
+            <!--
+            <bvr:forretningsadresse>
+                --Zero or more repetitions:--
+                <bvr:coNavn>string</bvr:coNavn>
+                <bvr:vegadresse>
+                    --Optional:--
+                    <bvr:vegadresseID>string</bvr:vegadresseID>
+                    <bvr:adressenavn>string</bvr:adressenavn>
+                    --Optional:--
+                    <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+                    <bvr:nummer>
+                        <bvr:nummer>stri</bvr:nummer>
+                        --Optional:--
+                        <bvr:bokstav>s</bvr:bokstav>
+                    </bvr:nummer>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+                    --Optional:--
+                    <bvr:adressetilleggsnavn>string</bvr:adressetilleggsnavn>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:vegadresse>
+                <bvr:stedsadresse>
+                    --Optional:--
+                    <bvr:stedsnavn>string</bvr:stedsnavn>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:stedsadresse>
+            </bvr:forretningsadresse>
+            -->
+            <bvr:varslingsadresse>
+
+                <bvr:telefonnummer>
+
+                    <bvr:internasjonaltPrefiks>string</bvr:internasjonaltPrefiks>
+                    <bvr:nasjonaltNummer>string</bvr:nasjonaltNummer>
+                </bvr:telefonnummer>
+
+                <bvr:e-postadresse>string</bvr:e-postadresse>
+            </bvr:varslingsadresse>
+            <!--Zero or more repetitions:-->
+            <bvr:rolle>
+                <bvr:rolletype>rolletype.innehaver</bvr:rolletype>
+                <!--Zero or more repetitions:-->
+                <bvr:prokura>
+                    <bvr:prokurabestemmelse>prokurabestemmelsetype.prokuristAlene</bvr:prokurabestemmelse>
+                </bvr:prokura>
+                <bvr:rolleinnehaver>
+                    <bvr:virksomhet>
+                        <bvr:virksomhetsidentifikator>string</bvr:virksomhetsidentifikator>
+
+                        <bvr:navn>string</bvr:navn>
+
+                        <bvr:avdelingskontor>string</bvr:avdelingskontor>
+                    </bvr:virksomhet>
+                    <bvr:person>
+                        <bvr:personidentifikator>stringstrin</bvr:personidentifikator>
+                        <bvr:etternavn>string</bvr:etternavn>
+                        <bvr:fulltNavn>string</bvr:fulltNavn>
+
+                        <bvr:adresse>
+                            <!--Zero or more repetitions:-->
+                            <bvr:coNavn>string</bvr:coNavn>
+                            <bvr:vegadresse>
+
+                                <bvr:vegadresseID>string</bvr:vegadresseID>
+                                <bvr:adressenavn>string</bvr:adressenavn>
+
+                                <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+                                <bvr:nummer>
+                                    <bvr:nummer>stri</bvr:nummer>
+
+                                    <bvr:bokstav>s</bvr:bokstav>
+                                </bvr:nummer>
+                                <bvr:poststed>
+                                    <bvr:postnummer>string</bvr:postnummer>
+                                    <bvr:navn>string</bvr:navn>
+                                </bvr:poststed>
+
+                                <bvr:adressetilleggsnavn>string</bvr:adressetilleggsnavn>
+                                <bvr:kommune>
+                                    <bvr:kommunenummer>string</bvr:kommunenummer>
+                                    <bvr:navn>string</bvr:navn>
+                                </bvr:kommune>
+                            </bvr:vegadresse>
+                            <bvr:stedsadresse>
+
+                                <bvr:stedsnavn>string</bvr:stedsnavn>
+                                <bvr:poststed>
+                                    <bvr:postnummer>string</bvr:postnummer>
+                                    <bvr:navn>string</bvr:navn>
+                                </bvr:poststed>
+                                <bvr:kommune>
+                                    <bvr:kommunenummer>string</bvr:kommunenummer>
+                                    <bvr:navn>string</bvr:navn>
+                                </bvr:kommune>
+                            </bvr:stedsadresse>
+                            <bvr:utenlandskAdresse>
+
+                                <bvr:adressenavn>string</bvr:adressenavn>
+
+                                <bvr:adressenummer>string</bvr:adressenummer>
+
+                                <bvr:bygning>string</bvr:bygning>
+
+                                <bvr:etasjenummer>string</bvr:etasjenummer>
+
+                                <bvr:boenhet>string</bvr:boenhet>
+
+                                <bvr:postboks>string</bvr:postboks>
+
+                                <bvr:postkode>string</bvr:postkode>
+
+                                <bvr:byEllerStedsnavn>string</bvr:byEllerStedsnavn>
+
+                                <bvr:region>string</bvr:region>
+
+                                <bvr:distriktEllerBydel>string</bvr:distriktEllerBydel>
+                                <bvr:land>
+                                    <bvr:navn>string</bvr:navn>
+                                    <bvr:landkode>string</bvr:landkode>
+                                </bvr:land>
+                                <!--0 to 3 repetitions:-->
+                                <bvr:friAdressetekst>string</bvr:friAdressetekst>
+
+                                <bvr:adresseidentifikator>string</bvr:adresseidentifikator>
+                            </bvr:utenlandskAdresse>
+                            <bvr:postboksadresse>
+                                <bvr:postboksnummer>string</bvr:postboksnummer>
+
+                                <bvr:postboksanleggsnavn>string</bvr:postboksanleggsnavn>
+                                <bvr:poststed>
+                                    <bvr:postnummer>string</bvr:postnummer>
+                                    <bvr:navn>string</bvr:navn>
+                                </bvr:poststed>
+                                <bvr:kommune>
+                                    <bvr:kommunenummer>string</bvr:kommunenummer>
+                                    <bvr:navn>string</bvr:navn>
+                                </bvr:kommune>
+                            </bvr:postboksadresse>
+                        </bvr:adresse>
+                        <!--Zero or more repetitions:-->
+                        <bvr:HF_navnesoekFeilkode>100</bvr:HF_navnesoekFeilkode>
+                    </bvr:person>
+                    <bvr:HF_identifikator>stringstrin</bvr:HF_identifikator>
+                </bvr:rolleinnehaver>
+            </bvr:rolle>
+            <bvr:innehaver>
+                <bvr:rolletype>rolletype.innehaver</bvr:rolletype>
+                <bvr:rolleinnehaver>
+                    <bvr:personidentifikator>stringstrin</bvr:personidentifikator>
+                    <bvr:etternavn>string</bvr:etternavn>
+                    <bvr:fulltNavn>string</bvr:fulltNavn>
+
+                    <bvr:adresse>
+                        <!--Zero or more repetitions:-->
+                        <bvr:coNavn>string</bvr:coNavn>
+                        <bvr:vegadresse>
+
+                            <bvr:vegadresseID>string</bvr:vegadresseID>
+                            <bvr:adressenavn>string</bvr:adressenavn>
+
+                            <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+                            <bvr:nummer>
+                                <bvr:nummer>stri</bvr:nummer>
+
+                                <bvr:bokstav>s</bvr:bokstav>
+                            </bvr:nummer>
+                            <bvr:poststed>
+                                <bvr:postnummer>string</bvr:postnummer>
+                                <bvr:navn>string</bvr:navn>
+                            </bvr:poststed>
+
+                            <bvr:adressetilleggsnavn>string</bvr:adressetilleggsnavn>
+                            <bvr:kommune>
+                                <bvr:kommunenummer>string</bvr:kommunenummer>
+                                <bvr:navn>string</bvr:navn>
+                            </bvr:kommune>
+                        </bvr:vegadresse>
+                        <bvr:stedsadresse>
+
+                            <bvr:stedsnavn>string</bvr:stedsnavn>
+                            <bvr:poststed>
+                                <bvr:postnummer>string</bvr:postnummer>
+                                <bvr:navn>string</bvr:navn>
+                            </bvr:poststed>
+                            <bvr:kommune>
+                                <bvr:kommunenummer>string</bvr:kommunenummer>
+                                <bvr:navn>string</bvr:navn>
+                            </bvr:kommune>
+                        </bvr:stedsadresse>
+                        <bvr:utenlandskAdresse>
+
+                            <bvr:adressenavn>string</bvr:adressenavn>
+
+                            <bvr:adressenummer>string</bvr:adressenummer>
+
+                            <bvr:bygning>string</bvr:bygning>
+
+                            <bvr:etasjenummer>string</bvr:etasjenummer>
+
+                            <bvr:boenhet>string</bvr:boenhet>
+
+                            <bvr:postboks>string</bvr:postboks>
+
+                            <bvr:postkode>string</bvr:postkode>
+
+                            <bvr:byEllerStedsnavn>string</bvr:byEllerStedsnavn>
+
+                            <bvr:region>string</bvr:region>
+
+                            <bvr:distriktEllerBydel>string</bvr:distriktEllerBydel>
+                            <bvr:land>
+                                <bvr:navn>string</bvr:navn>
+                                <bvr:landkode>string</bvr:landkode>
+                            </bvr:land>
+                            <!--0 to 3 repetitions:-->
+                            <bvr:friAdressetekst>string</bvr:friAdressetekst>
+
+                            <bvr:adresseidentifikator>string</bvr:adresseidentifikator>
+                        </bvr:utenlandskAdresse>
+                        <bvr:postboksadresse>
+                            <bvr:postboksnummer>string</bvr:postboksnummer>
+
+                            <bvr:postboksanleggsnavn>string</bvr:postboksanleggsnavn>
+                            <bvr:poststed>
+                                <bvr:postnummer>string</bvr:postnummer>
+                                <bvr:navn>string</bvr:navn>
+                            </bvr:poststed>
+                            <bvr:kommune>
+                                <bvr:kommunenummer>string</bvr:kommunenummer>
+                                <bvr:navn>string</bvr:navn>
+                            </bvr:kommune>
+                        </bvr:postboksadresse>
+                    </bvr:adresse>
+                    <!--Zero or more repetitions:-->
+                    <bvr:HF_navnesoekFeilkode>100</bvr:HF_navnesoekFeilkode>
+                </bvr:rolleinnehaver>
+            </bvr:innehaver>
+            <bvr:aktivitet>
+
+                <bvr:fritekst>string</bvr:fritekst>
+                <!--Zero or more repetitions:-->
+                <bvr:fasttekst>
+                    <bvr:aktivitetskode>stri</bvr:aktivitetskode>
+                    <bvr:tekst>string</bvr:tekst>
+                </bvr:fasttekst>
+                <bvr:oppstartsdato>string</bvr:oppstartsdato>
+            </bvr:aktivitet>
+
+            <bvr:kontaktopplysning>
+
+                <bvr:telefonnummer>
+
+                    <bvr:internasjonaltPrefiks>string</bvr:internasjonaltPrefiks>
+                    <bvr:nasjonaltNummer>string</bvr:nasjonaltNummer>
+                </bvr:telefonnummer>
+
+                <bvr:e-postadresse>string</bvr:e-postadresse>
+
+                <bvr:nettadresse>string</bvr:nettadresse>
+            </bvr:kontaktopplysning>
+
+            <bvr:foretaksinformasjon>
+
+                <bvr:oenskesRegistrertIForetaksregisteret>false</bvr:oenskesRegistrertIForetaksregisteret>
+                <!--Zero or more repetitions:-->
+                <bvr:prokura>
+                    <bvr:prokurabestemmelse>prokurabestemmelsetype.prokuristAlene</bvr:prokurabestemmelse>
+                </bvr:prokura>
+            </bvr:foretaksinformasjon>
+
+            <bvr:postadresse>
+                <!--Zero or more repetitions:-->
+                <bvr:coNavn>string</bvr:coNavn>
+                <bvr:vegadresse>
+
+                    <bvr:vegadresseID>string</bvr:vegadresseID>
+                    <bvr:adressenavn>string</bvr:adressenavn>
+
+                    <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+                    <bvr:nummer>
+                        <bvr:nummer>stri</bvr:nummer>
+
+                        <bvr:bokstav>s</bvr:bokstav>
+                    </bvr:nummer>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+
+                    <bvr:adressetilleggsnavn>string</bvr:adressetilleggsnavn>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:vegadresse>
+                <bvr:stedsadresse>
+
+                    <bvr:stedsnavn>string</bvr:stedsnavn>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:stedsadresse>
+                <bvr:postboksadresse>
+                    <bvr:postboksnummer>string</bvr:postboksnummer>
+
+                    <bvr:postboksanleggsnavn>string</bvr:postboksanleggsnavn>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:postboksadresse>
+                <bvr:utenlandskAdresse>
+
+                    <bvr:adressenavn>string</bvr:adressenavn>
+
+                    <bvr:adressenummer>string</bvr:adressenummer>
+
+                    <bvr:bygning>string</bvr:bygning>
+
+                    <bvr:etasjenummer>string</bvr:etasjenummer>
+
+                    <bvr:boenhet>string</bvr:boenhet>
+
+                    <bvr:postboks>string</bvr:postboks>
+
+                    <bvr:postkode>string</bvr:postkode>
+
+                    <bvr:byEllerStedsnavn>string</bvr:byEllerStedsnavn>
+
+                    <bvr:region>string</bvr:region>
+
+                    <bvr:distriktEllerBydel>string</bvr:distriktEllerBydel>
+                    <bvr:land>
+                        <bvr:navn>string</bvr:navn>
+                        <bvr:landkode>string</bvr:landkode>
+                    </bvr:land>
+                    <!--0 to 3 repetitions:-->
+                    <bvr:friAdressetekst>string</bvr:friAdressetekst>
+
+                    <bvr:adresseidentifikator>string</bvr:adresseidentifikator>
+                </bvr:utenlandskAdresse>
+            </bvr:postadresse>
+        </bvr:virksomhetsinformasjon>
+
+        <bvr:sporvalg>
+
+            <bvr:HF_harPostadresse>string</bvr:HF_harPostadresse>
+
+            <bvr:HF_harKontaktopplysning>string</bvr:HF_harKontaktopplysning>
+
+            <bvr:HF_prefillInnehaver>string</bvr:HF_prefillInnehaver>
+        </bvr:sporvalg>
+        <bvr:fagsystemReferanse>
+            <bvr:fagsystemID>string</bvr:fagsystemID>
+
+            <bvr:orgnrFagsystem>string</bvr:orgnrFagsystem>
+            <bvr:referanseFagsystem>string</bvr:referanseFagsystem>
+        </bvr:fagsystemReferanse>
+    </bvr:innrapporteringnyttenk_altinn_m>
+</bvr:meldingshode>

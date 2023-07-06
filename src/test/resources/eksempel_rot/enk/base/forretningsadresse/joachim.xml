@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bvr:forretningsadresse xmlns:bvr="http://schema.brreg.no/BVRENKInn">
+
+    <bvr:coNavn>Olga</bvr:coNavn>
+    <bvr:vegadresse>
+
+        <bvr:vegadresseID>dsfsdf</bvr:vegadresseID>
+        <bvr:adressenavn>Storgate 10</bvr:adressenavn>
+
+        <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+        <bvr:nummer>
+            <bvr:nummer>stri</bvr:nummer>
+
+            <bvr:bokstav>s</bvr:bokstav>
+        </bvr:nummer>
+        <bvr:poststed>
+            <bvr:postnummer>string</bvr:postnummer>
+            <bvr:navn>string</bvr:navn>
+        </bvr:poststed>
+
+        <bvr:adressetilleggsnavn>xxx</bvr:adressetilleggsnavn>
+        <bvr:kommune>
+            <bvr:kommunenummer>yy</bvr:kommunenummer>
+            <bvr:navn>zz</bvr:navn>
+        </bvr:kommune>
+    </bvr:vegadresse>
+
+</bvr:forretningsadresse>

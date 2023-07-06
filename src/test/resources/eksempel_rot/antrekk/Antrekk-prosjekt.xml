@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vpoint-config>
+    <rootDir>%TVAR_HOME%\tvar\src\test\resources\eksempel_rot\</rootDir>
+        <name>antrekk</name>
+        <basedir>base</basedir>
+        <excelfile>..\Antrekk.xlsx</excelfile>
+        <testCaseColumnName>Testcase</testCaseColumnName>
+        <verifyOptionsSheetName>verifiser</verifyOptionsSheetName>
+        <testCasesExcelSheetName>Testcases_clothing</testCasesExcelSheetName>
+        <baseXslFilename>base.xslt</baseXslFilename>
+        <destXslFilename>destfile.xslt</destXslFilename>
+        <tmpSubdir>%TVAR_HOME%\tvar\target\antrekk\tmp\</tmpSubdir>
+        <commonXmlBaseFile>basis.xml</commonXmlBaseFile>
+        <targetSubdir>%TVAR_HOME%\tvar\target\antrekk\</targetSubdir>
+        <mergeXslt>merge.xslt</mergeXslt>
+        <templateSubdir>templates</templateSubdir>
+        <startrow>1</startrow>
+</vpoint-config>

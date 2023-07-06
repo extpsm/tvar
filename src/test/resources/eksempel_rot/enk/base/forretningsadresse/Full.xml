@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bvr:forretningsadresse xmlns:bvr="http://schema.brreg.no/BVRENKInn">
+
+    <bvr:coNavn>string</bvr:coNavn>
+    <bvr:vegadresse>
+
+        <bvr:vegadresseID>string</bvr:vegadresseID>
+        <bvr:adressenavn>string</bvr:adressenavn>
+
+        <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+        <bvr:nummer>
+            <bvr:nummer>stri</bvr:nummer>
+
+            <bvr:bokstav>s</bvr:bokstav>
+        </bvr:nummer>
+        <bvr:poststed>
+            <bvr:postnummer>string</bvr:postnummer>
+            <bvr:navn>string</bvr:navn>
+        </bvr:poststed>
+
+        <bvr:adressetilleggsnavn>string</bvr:adressetilleggsnavn>
+        <bvr:kommune>
+            <bvr:kommunenummer>string</bvr:kommunenummer>
+            <bvr:navn>string</bvr:navn>
+        </bvr:kommune>
+    </bvr:vegadresse>
+    <bvr:stedsadresse>
+
+        <bvr:stedsnavn>string</bvr:stedsnavn>
+        <bvr:poststed>
+            <bvr:postnummer>string</bvr:postnummer>
+            <bvr:navn>string</bvr:navn>
+        </bvr:poststed>
+        <bvr:kommune>
+            <bvr:kommunenummer>string</bvr:kommunenummer>
+            <bvr:navn>string</bvr:navn>
+        </bvr:kommune>
+    </bvr:stedsadresse>
+</bvr:forretningsadresse>

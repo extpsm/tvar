@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bvr:rolle xmlns:bvr="http://schema.brreg.no/BVRENKInn">
+    <bvr:rolletype>rolletype.innehaver</bvr:rolletype>
+
+    <bvr:prokura>
+        <bvr:prokurabestemmelse>prokurabestemmelsetype.prokuristAlene</bvr:prokurabestemmelse>
+    </bvr:prokura>
+    <bvr:rolleinnehaver>
+        <bvr:virksomhet>
+            <bvr:virksomhetsidentifikator>string</bvr:virksomhetsidentifikator>
+
+            <bvr:navn>string</bvr:navn>
+
+            <bvr:avdelingskontor>string</bvr:avdelingskontor>
+        </bvr:virksomhet>
+        <bvr:person>
+            <bvr:personidentifikator>stringstrin</bvr:personidentifikator>
+            <bvr:etternavn>string</bvr:etternavn>
+            <bvr:fulltNavn>string</bvr:fulltNavn>
+
+            <bvr:adresse>
+
+                <bvr:coNavn>string</bvr:coNavn>
+                <bvr:vegadresse>
+
+                    <bvr:vegadresseID>string</bvr:vegadresseID>
+                    <bvr:adressenavn>string</bvr:adressenavn>
+
+                    <bvr:bruksenhetsnummer>string</bvr:bruksenhetsnummer>
+                    <bvr:nummer>
+                        <bvr:nummer>stri</bvr:nummer>
+
+                        <bvr:bokstav>s</bvr:bokstav>
+                    </bvr:nummer>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+
+                    <bvr:adressetilleggsnavn>string</bvr:adressetilleggsnavn>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:vegadresse>
+                <bvr:stedsadresse>
+
+                    <bvr:stedsnavn>string</bvr:stedsnavn>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:stedsadresse>
+                <bvr:utenlandskAdresse>
+
+                    <bvr:adressenavn>string</bvr:adressenavn>
+
+                    <bvr:adressenummer>string</bvr:adressenummer>
+
+                    <bvr:bygning>string</bvr:bygning>
+
+                    <bvr:etasjenummer>string</bvr:etasjenummer>
+
+                    <bvr:boenhet>string</bvr:boenhet>
+
+                    <bvr:postboks>string</bvr:postboks>
+
+                    <bvr:postkode>string</bvr:postkode>
+
+                    <bvr:byEllerStedsnavn>string</bvr:byEllerStedsnavn>
+
+                    <bvr:region>string</bvr:region>
+
+                    <bvr:distriktEllerBydel>string</bvr:distriktEllerBydel>
+                    <bvr:land>
+                        <bvr:navn>string</bvr:navn>
+                        <bvr:landkode>string</bvr:landkode>
+                    </bvr:land>
+
+                    <bvr:friAdressetekst>string</bvr:friAdressetekst>
+
+                    <bvr:adresseidentifikator>string</bvr:adresseidentifikator>
+                </bvr:utenlandskAdresse>
+                <bvr:postboksadresse>
+                    <bvr:postboksnummer>string</bvr:postboksnummer>
+
+                    <bvr:postboksanleggsnavn>string</bvr:postboksanleggsnavn>
+                    <bvr:poststed>
+                        <bvr:postnummer>string</bvr:postnummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:poststed>
+                    <bvr:kommune>
+                        <bvr:kommunenummer>string</bvr:kommunenummer>
+                        <bvr:navn>string</bvr:navn>
+                    </bvr:kommune>
+                </bvr:postboksadresse>
+            </bvr:adresse>
+
+            <bvr:HF_navnesoekFeilkode>100</bvr:HF_navnesoekFeilkode>
+        </bvr:person>
+        <bvr:HF_identifikator>stringstrin</bvr:HF_identifikator>
+    </bvr:rolleinnehaver>
+</bvr:rolle>

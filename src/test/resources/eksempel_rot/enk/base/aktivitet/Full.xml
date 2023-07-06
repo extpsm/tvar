@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bvr:aktivitet xmlns:bvr="http://schema.brreg.no/BVRENKInn">
+    <bvr:fritekst>string</bvr:fritekst>
+    <bvr:fasttekst>
+        <bvr:aktivitetskode>stri</bvr:aktivitetskode>
+        <bvr:tekst>string</bvr:tekst>
+    </bvr:fasttekst>
+    <bvr:oppstartsdato>string</bvr:oppstartsdato>
+</bvr:aktivitet>

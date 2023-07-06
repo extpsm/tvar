@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bvr:forretningsadresse  xmlns:bvr="http://schema.brreg.no/BVRENKInn">
+    <bvr:vegadresse>
+        <bvr:adressenavn>Innerveien 20</bvr:adressenavn>
+        <bvr:poststed>
+            <bvr:postnummer>8906</bvr:postnummer>
+            <bvr:navn>BRONNOYSUND</bvr:navn>
+        </bvr:poststed>
+    </bvr:vegadresse>
+</bvr:forretningsadresse>

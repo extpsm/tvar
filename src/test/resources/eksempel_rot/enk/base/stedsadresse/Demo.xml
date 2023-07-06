@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bvr:stedsadresse xmlns:bvr="http://schema.brreg.no/BVRENKInn">
+    <bvr:stedsnavn>Bodø</bvr:stedsnavn>
+    <bvr:poststed>
+        <bvr:postnummer>8003</bvr:postnummer>
+        <bvr:navn>Bodø</bvr:navn>
+    </bvr:poststed>
+    <bvr:kommune>
+        <bvr:kommunenummer>1806</bvr:kommunenummer>
+        <bvr:navn>Bodø</bvr:navn>
+    </bvr:kommune>
+</bvr:stedsadresse>

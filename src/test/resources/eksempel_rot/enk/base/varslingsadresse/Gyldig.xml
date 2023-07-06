@@ -1,0 +1,7 @@
+<bvr:varslingsadresse  xmlns:bvr="http://schema.brreg.no/BVRENKInn">
+    <bvr:telefonnummer>
+        <bvr:internasjonaltPrefiks>string</bvr:internasjonaltPrefiks>
+        <bvr:nasjonaltNummer>string</bvr:nasjonaltNummer>
+    </bvr:telefonnummer>
+    <bvr:e-postadresse>string</bvr:e-postadresse>
+</bvr:varslingsadresse>

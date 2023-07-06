@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bvr:stedsadresse xmlns:bvr="http://schema.brreg.no/BVRENKInn">
+    <bvr:stedsnavn>string</bvr:stedsnavn>
+    <bvr:poststed>
+        <bvr:postnummer>string</bvr:postnummer>
+        <bvr:navn>string</bvr:navn>
+    </bvr:poststed>
+    <bvr:kommune>
+        <bvr:kommunenummer>string</bvr:kommunenummer>
+        <bvr:navn>string</bvr:navn>
+    </bvr:kommune>
+</bvr:stedsadresse>

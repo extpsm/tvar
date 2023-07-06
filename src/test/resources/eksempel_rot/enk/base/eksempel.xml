@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meldingshode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+              xmlns="http://schema.brreg.no/BVRENKInn">
+    <innrapporteringnyttenk_altinn_m>
+        <telefonnummerUtfyller>
+            <internasjonaltPrefiks>47</internasjonaltPrefiks>
+        </telefonnummerUtfyller>
+        <innsendingstidspunkt>19.06.2023 13:23:38</innsendingstidspunkt>
+        <virksomhetsinformasjon>
+            <navn>Partner</navn>
+            <forretningsadresse>
+                <vegadresse>
+                    <adressenavn>Innerveien 20</adressenavn>
+                    <poststed>
+                        <postnummer>8906</postnummer>
+                        <navn>BRØNNØYSUND</navn>
+                    </poststed>
+                </vegadresse>
+            </forretningsadresse>
+            <varslingsadresse>
+                <telefonnummer>
+                    <nasjonaltNummer>95177777</nasjonaltNummer>
+                </telefonnummer>
+                <e-postadresse>test@test.com</e-postadresse>
+            </varslingsadresse>
+            <rolle>
+                <rolletype>rolletype.dagligLeder</rolletype>
+                <rolleinnehaver>
+                    <person>
+                        <personidentifikator>01039012345</personidentifikator>
+                        <etternavn>Salt</etternavn>
+                        <fulltNavn>Sophie Salt</fulltNavn>
+                        <HF_navnesoekFeilkode xsi:nil="true"/>
+                    </person>
+                    <HF_identifikator>01039012345</HF_identifikator>
+                </rolleinnehaver>
+            </rolle>
+            <rolle>
+                <rolletype>rolletype.regnskapsfoerer</rolletype>
+                <rolleinnehaver>
+                    <virksomhet>
+                        <virksomhetsidentifikator>900000001</virksomhetsidentifikator>
+                        <navn>Kari Consulting</navn>
+                    </virksomhet>
+                    <HF_identifikator>900000001</HF_identifikator>
+                </rolleinnehaver>
+            </rolle>
+            <innehaver>
+                <rolleinnehaver>
+                    <personidentifikator>01899699552</personidentifikator>
+                    <fulltNavn>Pengelens Partner</fulltNavn>
+                    <HF_navnesoekFeilkode xsi:nil="true"/>
+                </rolleinnehaver>
+            </innehaver>
+            <aktivitet>
+                <oppstartsdato>2023-06-19</oppstartsdato>
+            </aktivitet>
+            <foretaksinformasjon>
+                <oenskesRegistrertIForetaksregisteret>true</oenskesRegistrertIForetaksregisteret>
+            </foretaksinformasjon>
+            <postadresse>
+                <stedsadresse>
+                    <stedsnavn>Frøkenosen</stedsnavn>
+                    <poststed>
+                        <postnummer>8906</postnummer>
+                        <navn>BRØNNØYSUND</navn>
+                    </poststed>
+                </stedsadresse>
+            </postadresse>
+        </virksomhetsinformasjon>
+        <sporvalg>
+            <HF_harPostadresse>J</HF_harPostadresse>
+            <HF_prefillInnehaver>J</HF_prefillInnehaver>
+        </sporvalg>
+    </innrapporteringnyttenk_altinn_m>
+</meldingshode>

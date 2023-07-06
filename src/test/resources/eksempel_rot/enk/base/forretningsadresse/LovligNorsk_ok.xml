@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<forretningsadresse>
+    <vegadresse>
+        <adressenavn>Innerveien 20</adressenavn>
+        <poststed>
+            <postnummer>8906</postnummer>
+            <navn>BRONNOYSUND</navn>
+        </poststed>
+    </vegadresse>
+</forretningsadresse>

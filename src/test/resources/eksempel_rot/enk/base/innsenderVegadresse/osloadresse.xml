@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bvr:vegadresse xmlns:bvr="http://schema.brreg.no/BVRENKInn">
+    <bvr:vegadresseID>string</bvr:vegadresseID>
+    <bvr:adressenavn>string</bvr:adressenavn>
+
+    <bvr:bruksenhetsnummer>dgdfgf</bvr:bruksenhetsnummer>
+    <bvr:nummer>
+        <bvr:nummer>2345</bvr:nummer>
+
+        <bvr:bokstav>s</bvr:bokstav>
+    </bvr:nummer>
+    <bvr:poststed>
+        <bvr:postnummer>string</bvr:postnummer>
+        <bvr:navn>string</bvr:navn>
+    </bvr:poststed>
+
+    <bvr:adressetilleggsnavn>yyyyy</bvr:adressetilleggsnavn>
+
+</bvr:vegadresse>
